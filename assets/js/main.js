@@ -181,7 +181,7 @@
       {
         title: "Dynamics 365",
         sub: "CRM Customization",
-        icon: '<img src="assets/images/icons/dynamics-365.png" alt="" style="width:100%;height:100%;object-fit:cover;border-radius:10px;">'
+        icon: '<svg ' + ICON_STROKE + '><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>'
       },
       {
         title: "C# &amp; .NET",
