@@ -181,7 +181,7 @@
       {
         title: "Dynamics 365",
         sub: "CRM Customization",
-        icon: '<svg ' + ICON_STROKE + '><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>'
+        icon: '<img src="assets/images/icons/dynamics-365.png" alt="" style="width:100%;height:100%;object-fit:cover;border-radius:10px;">'
       },
       {
         title: "C# &amp; .NET",
@@ -191,14 +191,14 @@
       {
         title: "Copilot",
         sub: "AI-Assisted Workflows",
-        icon: '<svg viewBox="0 0 24 24"><path d="M9 4.6c-3 0-5 2-5 4.3s2 4.3 5 4.3h1.7c3 0 5 2 5 4.3s-2 4.3-5 4.3h-2" fill="none" stroke="url(#copilotGrad)" stroke-width="2.1" stroke-linecap="round"></path></svg>'
+        icon: '<img src="assets/images/icons/copilot-studio.svg" alt="" style="width:100%;height:100%;object-fit:contain;padding:5px;">'
       }
     ];
     var slot2Items = [
       {
         title: "Power Automate",
         sub: "Process Automation",
-        icon: '<svg ' + ICON_STROKE + '><path d="M13 2L3 14h7l-1 8 10-12h-7z"></path></svg>'
+        icon: '<img src="assets/images/icons/power-automate.svg" alt="" style="width:100%;height:100%;object-fit:contain;padding:5px;">'
       },
       {
         title: "SSRS Reporting",
