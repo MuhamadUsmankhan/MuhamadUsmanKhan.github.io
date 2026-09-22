@@ -418,6 +418,20 @@ section { position: relative; padding: 130px 0; }
 }
 .btn-ghost:hover { transform: translateY(-3px); border-color: var(--primary); background: var(--surface); }
 
+.btn-highlight {
+  background: rgba(34, 211, 238, 0.1);
+  border-color: var(--primary-2);
+  color: var(--primary-2);
+  box-shadow: 0 0 0 0 rgba(34, 211, 238, 0);
+}
+.btn-highlight:hover {
+  transform: translateY(-3px);
+  background: var(--gradient-1);
+  border-color: transparent;
+  color: #08080f;
+  box-shadow: 0 12px 30px rgba(34, 211, 238, 0.35);
+}
+
 .hero-stats { display: flex; gap: 40px; flex-wrap: wrap; }
 @media (max-width: 900px) { .hero-stats { justify-content: center; } }
 .hero-stats .stat-num {
