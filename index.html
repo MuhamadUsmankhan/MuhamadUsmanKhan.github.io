@@ -2,1188 +2,684 @@
 <html lang="en">
 
 <head>
-	<title>Usman's Portfolio</title>
-	<!-- Required meta tags -->
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
-	<meta property="og:image" content="./assets/images/Profile.jpg">
-	<meta property='og:title' content="Welcome to Usman's portfolio" />
-	<meta property='og:image' content='./assets/images/Profile.jpg' />
-	<meta property='og:description'
-		content='Hello, I’m Usman Khan, Microsoft Dynamics 356 CRM Technical Consultant, currently based in Doha, Qatar. I have rich experience in Dynamics 365 customization & writing plugins, flows and automate the work process using power automate.' />
-	<meta property='og:url' content='https://github.com/MuhamadUsmankhan/' />
-
-	<meta name="description" content="welcome to my portfolio !!!" />
-	<meta name="keywords"
-		content="crm, CRM Developer, Dynamics CRM, microsoft, dynamics 365, designer, developer, power apps, power automate, ms flow, flow, CRM, nodejs, dynamodb, reactjs" />
-	<meta name="microsoft crm consultant" content="Usman-Khan" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
+	<title>Muhammad Usman Khan — Dynamics 365 CRM &amp; Power Platform Consultant</title>
+	<meta name="description"
+		content="Muhammad Usman Khan is a Microsoft Dynamics 365 CRM Technical Consultant and Power Platform developer based in Doha, Qatar, specializing in customization, plugins, Power Automate, Power Apps and CRM integrations." />
+	<meta name="keywords"
+		content="Muhammad Usman Khan, CRM Developer, Dynamics 365, Microsoft Dynamics CRM, Power Platform, Power Apps, Power Automate, Power BI, Power Virtual Agents, Plugins, JavaScript, C#, REST API, Doha Qatar" />
+	<meta name="author" content="Muhammad Usman Khan" />
 
-	<!-- FAV AND ICONS   -->
-	<!-- <link rel="shortcut icon" href="assets/images/favicon.png" />
-	<link rel="shortcut icon" href="./assets/images/icon.png" /> -->
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Muhammad Usman Khan — Dynamics 365 CRM & Power Platform Consultant" />
+	<meta property="og:description"
+		content="Microsoft Dynamics 365 CRM Technical Consultant based in Doha, Qatar — customization, plugins, Power Automate, Power Apps and integrations." />
+	<meta property="og:image" content="./assets/images/IMG_5437.JPG" />
+	<meta property="og:url" content="https://muhamadusmankhan.github.io/" />
+	<meta name="twitter:card" content="summary_large_image" />
+
 	<link rel="shortcut icon" href="assets/images/icons8-backend-development-96.png" />
-	<!-- <link rel="shortcut icon" sizes="114x114" href="assets/images/apple-icon-114x114.png" /> -->
 
-	<!-- Google Font-->
-	<link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
-	<!-- Font Awesome -->
-	<link rel="stylesheet" href="assets/icons/font-awesome-4.7.0/css/font-awesome.min.css" />
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="assets/plugins/css/bootstrap.min.css" />
-	<!-- Animate CSS-->
-	<link rel="stylesheet" href="assets/plugins/css/animate.css" />
-	<!-- Owl Carousel CSS-->
-	<link rel="stylesheet" href="assets/plugins/css/owl.css" />
-	<!-- Fancybox-->
-	<link rel="stylesheet" href="assets/plugins/css/jquery.fancybox.min.css" />
-	<!-- Custom CSS-->
-	<link rel="stylesheet" href="assets/css/styles.css" />
-	<link rel="stylesheet" href="assets/css/responsive.css" />
+	<!-- Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet" />
 
-	<!-- Colors -->
-	<link rel="alternate stylesheet" href="assets/css/colors/blue.css" title="blue" />
-	<link rel="stylesheet" href="assets/css/colors/defauld.css" title="defauld" />
-	<link rel="alternate stylesheet" href="assets/css/colors/green.css" title="green" />
-	<link rel="alternate stylesheet" href="assets/css/colors/blue-munsell.css" title="blue-munsell" />
-	<link rel="alternate stylesheet" href="assets/css/colors/orange.css" title="orange" />
-	<link rel="alternate stylesheet" href="assets/css/colors/purple.css" title="purple" />
-	<link rel="alternate stylesheet" href="assets/css/colors/slate.css" title="slate" />
-	<link rel="alternate stylesheet" href="assets/css/colors/yellow.css" title="yellow" />
+	<!-- Styles -->
+	<link rel="stylesheet" href="assets/css/main.css" />
 </head>
 
-<body class="white-vertion black-bg">
-	<!-- Start Loader -->
-	<div class="section-loader">
-		<div class="loader">
-			<div></div>
-			<div></div>
-		</div>
+<body>
+	<!-- Ambient background -->
+	<div class="bg-decor" aria-hidden="true">
+		<div class="blob blob-1"></div>
+		<div class="blob blob-2"></div>
+		<div class="blob blob-3"></div>
 	</div>
-	<!-- End Loader -->
+	<div class="noise-grid" aria-hidden="true"></div>
 
-	<!--
-        ===================
-           NAVIGATION
-        ===================
-        -->
-	<header class="black-bg mh-header mh-fixed-nav nav-scroll mh-xs-mobile-nav wow fadeInUp" id="mh-header">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row">
-				<nav class="navbar navbar-expand-lg mh-nav nav-btn">
-					<button class="navbar-toggler" type="button" data-toggle="collapse"
-						data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-						aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon icon"></span>
-					</button>
+	<!-- SVG defs (gradient used by skill rings) -->
+	<svg width="0" height="0" style="position:absolute">
+		<defs>
+			<linearGradient id="ringGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+				<stop offset="0%" stop-color="#7c5cff" />
+				<stop offset="55%" stop-color="#ff5fa8" />
+				<stop offset="100%" stop-color="#ffb86b" />
+			</linearGradient>
+		</defs>
+	</svg>
 
-					<div class="collapse navbar-collapse" id="navbarSupportedContent">
-						<ul class="navbar-nav mr-auto ml-auto">
-							<li class="nav-item active">
-								<a class="nav-link" href="#mh-home">Home</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#mh-about">About</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#mh-skills">Skills</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#mh-experience">Experiences</a>
-							</li>
-							<!-- <li class="nav-item">
-									<a class="nav-link" href="#mh-portfolio">Portfolio</a>
-								</li> -->
-							<li class="nav-item">
-								<a class="nav-link" href="#mh-pricing">Hire Me</a>
-							</li>
-							<!-- <li class="nav-item">
-									<a class="nav-link" href="#mh-blog">Blog</a>
-								</li> -->
-							<li class="nav-item">
-								<a class="nav-link" href="#mh-contact">Contact</a>
-							</li>
-						</ul>
-					</div>
-				</nav>
+	<!-- ===================== NAVBAR ===================== -->
+	<header class="navbar" id="navbar">
+		<div class="container nav-inner">
+			<a href="#home" class="logo">
+				<span class="logo-mark">UK</span>
+				Usman Khan
+			</a>
+
+			<nav class="nav-links">
+				<a href="#home">Home</a>
+				<a href="#about">About</a>
+				<a href="#skills">Skills</a>
+				<a href="#experience">Experience</a>
+				<a href="#certifications">Certs</a>
+				<a href="#hire">Hire Me</a>
+				<a href="#contact">Contact</a>
+			</nav>
+
+			<div class="nav-actions">
+				<button class="theme-toggle" id="themeToggle" aria-label="Toggle color theme">
+					<svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+					<svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"></path></svg>
+				</button>
+				<a href="#contact" class="btn-cta-small">Let's Talk</a>
+				<button class="nav-burger" id="navBurger" aria-label="Toggle menu"><span></span></button>
 			</div>
 		</div>
 	</header>
 
-	<!--
-        ===================
-            HOME 
-        ===================
-        -->
-	<section class="mh-home image-bg home-2-img" id="mh-home">
-		<div class="home-ovimg">
-			<div class="container">
-				<div class="row xs-column-reverse section-separator vertical-middle-content home-padding">
-					<div class="col-sm-6">
-						<div class="mh-header-info">
-							<div class="mh-promo wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
-								<span>Hello I'm</span>
-							</div>
+	<div class="mobile-menu" id="mobileMenu">
+		<a href="#home">Home</a>
+		<a href="#about">About</a>
+		<a href="#skills">Skills</a>
+		<a href="#experience">Experience</a>
+		<a href="#certifications">Certifications</a>
+		<a href="#hire">Hire Me</a>
+		<a href="#contact">Contact</a>
+	</div>
 
-							<h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
-								Muhammad Usman Khan
-							</h2>
-							<h4 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
-								Dynamics 365 CRM Technical Consultant
-							</h4>
+	<main>
+		<!-- ===================== HERO ===================== -->
+		<section class="hero" id="home">
+			<div class="container hero-grid">
+				<div class="hero-content">
+					<div class="hero-eyebrow reveal in-view">
+						<span class="dot"><img src="assets/images/IMG_5437.JPG" alt="" /></span>
+						<span class="status-dot"></span> Available for new opportunities
+					</div>
 
-							<ul>
-								<li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">
-									<i class="fa fa-envelope"></i><a href="mailto:">muhammadusmankhan26@outlook.com</a>
-								</li>
-								<li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
-									<i class="fa fa-phone"></i><a href="callto:">(+974) 31301041</a>
-								</li>
-								<li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
-									<i class="fa fa-map-marker"></i>
-									<address>
-										Doha, Qatar
-									</address>
-								</li>
-							</ul>
+					<h1 class="reveal in-view">
+						Hi, I'm <span class="gradient-text">Muhammad Usman Khan</span>
+					</h1>
+					<div class="role-line reveal in-view reveal-delay-1">
+						<span id="typedRole"></span><span class="cursor-blink"></span>
+					</div>
 
-							<ul class="social-icon wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
-								<li>
-									<a target="_blank" href="https://www.instagram.com/1iusmankhan"><i
-											class="fa fa-instagram"></i></a>
-								</li>
-								<li>
-									<a target="_blank" href="https://www.linkedin.com/in/muhammad-usman-khan-386121210/"><i
-											class="fa fa-linkedin"></i></a>
-								</li>
-								<li>
-									<a target="_blank" href="https://github.com/MuhamadUsmankhan"><i
-											class="fa fa-github"></i></a>
-								</li>
-								<li>
-									<a target="_blank" href="https://www.fiverr.com/s/z6akNE"><i
-											class="fa fa-fonticons"></i></a>
-								</li>
-							</ul>
+					<p class="lead reveal in-view reveal-delay-2">
+						I design and build Dynamics 365 CRM solutions and Power Platform apps that turn manual,
+						repetitive work into fast, automated processes — from custom plugins and web resources to
+						end-to-end integrations. Based in Doha, Qatar.
+					</p>
+
+					<div class="hero-cta reveal in-view reveal-delay-3">
+						<a href="#contact" class="btn btn-primary">
+							Hire Me
+							<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+						</a>
+						<a href="https://www.linkedin.com/in/muhammad-usman-khan586/" target="_blank" rel="noopener" class="btn btn-ghost">
+							View LinkedIn
+							<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+						</a>
+					</div>
+
+					<div class="hero-stats reveal in-view reveal-delay-4">
+						<div class="stat-item">
+							<div class="stat-num" data-count="5" data-suffix="+">0+</div>
+							<div class="stat-label">Years Experience</div>
+						</div>
+						<div class="stat-item">
+							<div class="stat-num" data-count="7" data-suffix="">0</div>
+							<div class="stat-label">MS Certifications</div>
+						</div>
+						<div class="stat-item">
+							<div class="stat-num" data-count="3" data-suffix="">0</div>
+							<div class="stat-label">Companies Served</div>
 						</div>
 					</div>
-					<div class="col-sm-6">
-						<div class="hero-img wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
-							<div class="img-border">
-								<img src="assets/images/IMG_5437.JPG" alt="" class="img-fluid" />
-							</div>
+
+					<div class="hero-social reveal in-view reveal-delay-4">
+						<a class="icon-btn" target="_blank" rel="noopener" href="https://www.linkedin.com/in/muhammad-usman-khan586/" aria-label="LinkedIn">
+							<svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.45-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+						</a>
+						<a class="icon-btn" target="_blank" rel="noopener" href="https://github.com/MuhamadUsmankhan" aria-label="GitHub">
+							<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2.1c-3.3.7-4-1.6-4-1.6-.5-1.4-1.3-1.8-1.3-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.4 11.4 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .5z"/></svg>
+						</a>
+						<a class="icon-btn" target="_blank" rel="noopener" href="https://www.instagram.com/1iusmankhan" aria-label="Instagram">
+							<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+						</a>
+						<a class="icon-btn" target="_blank" rel="noopener" href="https://www.fiverr.com/s/z6akNE" aria-label="Fiverr">
+							<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3 5.5L21 9l-4.5 4 1 6.5-5.5-3-5.5 3 1-6.5L3 9l6-1.5z"></path></svg>
+						</a>
+						<a class="icon-btn" href="mailto:muhammadusmankhan26@outlook.com" aria-label="Email">
+							<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z" opacity="0"></path><path d="M22 6l-10 7L2 6"></path><rect x="2" y="4" width="20" height="16" rx="2"></rect></svg>
+						</a>
+					</div>
+				</div>
+
+				<div class="hero-visual reveal in-view reveal-delay-2">
+					<div class="hero-photo-wrap">
+						<div class="hero-photo">
+							<img src="assets/images/IMG_5437.JPG" alt="Muhammad Usman Khan" />
 						</div>
+					</div>
+					<div class="float-card float-card-1">
+						<span class="fc-icon">
+							<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+						</span>
+						<span>Dynamics 365<small>CRM Customization</small></span>
+					</div>
+					<div class="float-card float-card-2">
+						<span class="fc-icon">
+							<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h7l-1 8 10-12h-7z"></path></svg>
+						</span>
+						<span>Power Automate<small>Process Automation</small></span>
 					</div>
 				</div>
 			</div>
-		</div>
-	</section>
 
-	<!--
-        ==================
-            ABOUT
-        =================
-        -->
-	<section class="mh-about" id="mh-about">
-		<div class="container">
-			<div class="row section-separator">
-				<div class="col-sm-12 col-md-6">
-					<div class="mh-about-img shadow-2 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">
-						<img src="assets/images/ab-img.png" alt="" class="img-fluid" />
+			<div class="scroll-cue"><span>Scroll</span><span class="line"></span></div>
+		</section>
+
+		<!-- ===================== ABOUT ===================== -->
+		<section id="about">
+			<div class="container">
+				<div class="about-grid">
+					<div class="about-photo reveal">
+						<div class="about-photo-frame">
+							<img src="assets/images/IMG_5437.JPG" alt="Muhammad Usman Khan portrait" />
+						</div>
+						<div class="about-badge">
+							<div class="num">5+</div>
+							<div class="lbl">Years<br />Experience</div>
+						</div>
 					</div>
-				</div>
-				<div class="col-sm-12 col-md-6">
-					<div class="mh-about-inner">
-						<h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
-							About Me
-						</h2>
-						<p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
-							Hello, I’m Muhammad Usman Khan, a Microsoft Dynamics 365 CRM Consultant, currently based in
-							Doha, Qatar. I have rich experience in Dynamics 365 customization, power apps and,
-							writing plugins, flows and automate the work process using power automate. Also, I am good at
+
+					<div class="about-text reveal reveal-delay-1">
+						<div class="section-tag">About Me</div>
+						<h2>Turning CRM complexity into <span class="gradient-text">simple, automated</span> experiences</h2>
+						<p>
+							Hello, I'm Muhammad Usman Khan — a Microsoft Dynamics 365 CRM Technical Consultant currently
+							based in Doha, Qatar. I have rich, hands-on experience across Dynamics 365 customization,
+							Power Apps, custom plugin development and automating business processes with Power Automate.
 						</p>
-						<div class="mh-about-tag wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
-							<ul>
-								<li><span>customizations</span></li>
-								<li><span>integration</span></li>
-								<li><span>power automate</span></li>
-								<li><span>power apps</span></li>
-								<li><span>web resources (Js, HTML)</span></li>
-								<li><span>3rd Party Integration</span></li>
-								<li><span>Rest APIs</span></li>
+						<p>
+							Over the years I've worked with CRM implementation partners and enterprise clients to deliver
+							customizations, third-party integrations and REST API driven solutions — always focused on
+							reliable, maintainable systems that make life easier for end users.
+						</p>
 
-							</ul>
-							<!-- </div>
-							<a
-								target="_blank"
-								href="https://www.dropbox.com/s/rgp32vho25s8z8w/Anwarul%20Haq%20%28Resume-n%29%20w-b.pdf?dl=0"
-								class="btn btn-fill wow fadeInUp"
-								data-wow-duration="0.8s"
-								data-wow-delay="0.4s"
-								>Downlaod CV <i class="fa fa-download"></i
-							></a>
-						</div> -->
+						<div class="about-facts">
+							<div class="fact-item">
+								<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 6-9 12-9 12S3 16 3 10a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+								<div><span class="flabel">Location</span><br /><span class="fvalue">Doha, Qatar</span></div>
+							</div>
+							<div class="fact-item">
+								<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 6 12 13 2 6"></polyline><rect x="2" y="4" width="20" height="16" rx="2"></rect></svg>
+								<div><span class="flabel">Email</span><br /><span class="fvalue">muhammadusmankhan26@outlook.com</span></div>
+							</div>
+							<div class="fact-item">
+								<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.68 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.32 1.85.55 2.81.68A2 2 0 0 1 22 16.92z"></path></svg>
+								<div><span class="flabel">Phone</span><br /><span class="fvalue">(+974) 31301041</span></div>
+							</div>
+							<div class="fact-item">
+								<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+								<div><span class="flabel">Availability</span><br /><span class="fvalue">Full-time / Freelance</span></div>
+							</div>
+						</div>
+
+						<div class="tag-pills">
+							<span class="tag-pill">Customizations</span>
+							<span class="tag-pill">Plugins &amp; Web Resources</span>
+							<span class="tag-pill">Power Automate</span>
+							<span class="tag-pill">Power Apps</span>
+							<span class="tag-pill">3rd Party Integration</span>
+							<span class="tag-pill">REST APIs</span>
 						</div>
 					</div>
 				</div>
-	</section>
+			</div>
+		</section>
 
-	<!--
-        ===================
-           SERVICE
-        ===================
-        -->
-	<section class="mh-service">
-		<div class="container">
-			<div class="row section-separator">
-				<div class="col-sm-12 text-center section-title wow fadeInUp" data-wow-duration="0.8s"
-					data-wow-delay="0.2s">
-					<h2>What I do</h2>
+		<!-- ===================== SERVICES ===================== -->
+		<section id="services">
+			<div class="container">
+				<div class="section-head center reveal" style="margin-left:auto;margin-right:auto;">
+					<div class="section-tag" style="margin-left:auto;margin-right:auto;">What I Do</div>
+					<h2>Solutions I build for <span class="gradient-text">Dynamics 365 &amp; Power Platform</span></h2>
+					<p style="margin-left:auto;margin-right:auto;">End-to-end CRM engineering — from a quick customization to a fully automated, integrated business process.</p>
 				</div>
-				<div class="col-sm-4">
-					<div class="mh-service-item shadow-1 dark-bg wow fadeInUp" data-wow-duration="0.8s"
-						data-wow-delay="0.3s">
-						<i class="fa fa-bullseye purple-color"></i>
-						<h3>Customization, Plugins</h3>
+
+				<div class="services-grid">
+					<div class="service-card reveal">
+						<div class="service-icon">
+							<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg>
+						</div>
+						<h3>Customization &amp; Plugins</h3>
+						<p>OOB configuration, custom C# plugins and business logic tailored to your processes.</p>
 					</div>
-				</div>
-				<div class="col-sm-4">
-					<div class="mh-service-item shadow-1 dark-bg wow fadeInUp" data-wow-duration="0.8s"
-						data-wow-delay="0.5s">
-						<i class="fa fa-code iron-color"></i>
-						<h3>Power Automate, Web Resources</h3>
+					<div class="service-card reveal reveal-delay-1">
+						<div class="service-icon">
+							<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h7l-1 8 10-12h-7z"></path></svg>
+						</div>
+						<h3>Power Automate &amp; Web Resources</h3>
+						<p>Automated flows and JavaScript-powered web resources that remove manual busywork.</p>
 					</div>
-				</div>
-				<div class="col-sm-4">
-					<div class="mh-service-item shadow-1 dark-bg wow fadeInUp" data-wow-duration="0.8s"
-						data-wow-delay="0.7s">
-						<i class="fa fa-object-ungroup sky-color"></i>
-						<h3>Power Apps, PVA, Power Bi</h3>
+					<div class="service-card reveal reveal-delay-2">
+						<div class="service-icon">
+							<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+						</div>
+						<h3>Power Apps, PVA &amp; Power BI</h3>
+						<p>Canvas &amp; model-driven apps, virtual agents and dashboards that surface real insight.</p>
+					</div>
+					<div class="service-card reveal reveal-delay-3">
+						<div class="service-icon">
+							<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+						</div>
+						<h3>Integrations &amp; REST APIs</h3>
+						<p>Reliable 3rd-party integrations connecting Dynamics 365 to the rest of your stack.</p>
 					</div>
 				</div>
 			</div>
-		</div>
-	</section>
+		</section>
 
-	<!--
-        ===================
-           SKILLS
-        ===================
-        -->
-	<section class="mh-skills" id="mh-skills">
-		<div class="container">
-			<div class="row section-separator">
-				<div class="section-title text-center col-sm-12">
-					<!--<h2>Skills</h2>-->
+		<!-- ===================== SKILLS ===================== -->
+		<section id="skills">
+			<div class="container">
+				<div class="section-head reveal">
+					<div class="section-tag">Skills</div>
+					<h2>What I bring to <span class="gradient-text">the table</span></h2>
+					<p>A blend of technical depth on the Power Platform and the soft skills to deliver in cross-functional teams.</p>
 				</div>
-				<div class="col-sm-12 col-md-6">
-					<div class="mh-skills-inner">
-						<div class="mh-professional-skill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
-							<h3>Technical Skills</h3>
-							<div class="each-skills">
-								<div class="candidatos">
-									<div class="parcial">
-										<div class="info">
-											<div class="nome">Power Apps (Canvas, Model Driven, Portals)</div>
-											<div class="percentagem-num">75%</div>
-										</div>
-										<div class="progressBar">
-											<div class="percentagem" style="width: 75%;"></div>
-										</div>
-									</div>
+
+				<div class="skills-layout">
+					<div class="skills-technical reveal reveal-delay-1">
+						<h3 style="margin-bottom:26px;font-size:1.15rem;">Technical Skills</h3>
+
+						<div class="skill-bar-item">
+							<div class="skill-bar-top"><span>Power Apps (Canvas, Model Driven, Portals)</span><span>75%</span></div>
+							<div class="skill-bar-track"><div class="skill-bar-fill" data-percent="75"></div></div>
+						</div>
+						<div class="skill-bar-item">
+							<div class="skill-bar-top"><span>Power Automate (Microsoft Flows)</span><span>80%</span></div>
+							<div class="skill-bar-track"><div class="skill-bar-fill" data-percent="80"></div></div>
+						</div>
+						<div class="skill-bar-item">
+							<div class="skill-bar-top"><span>Power Virtual Agents (PVA)</span><span>65%</span></div>
+							<div class="skill-bar-track"><div class="skill-bar-fill" data-percent="65"></div></div>
+						</div>
+						<div class="skill-bar-item">
+							<div class="skill-bar-top"><span>Custom Plugins Development (C#)</span><span>70%</span></div>
+							<div class="skill-bar-track"><div class="skill-bar-fill" data-percent="70"></div></div>
+						</div>
+						<div class="skill-bar-item">
+							<div class="skill-bar-top"><span>Dynamics CRM Customization</span><span>85%</span></div>
+							<div class="skill-bar-track"><div class="skill-bar-fill" data-percent="85"></div></div>
+						</div>
+						<div class="skill-bar-item">
+							<div class="skill-bar-top"><span>REST APIs &amp; Integrations</span><span>72%</span></div>
+							<div class="skill-bar-track"><div class="skill-bar-fill" data-percent="72"></div></div>
+						</div>
+					</div>
+
+					<div class="skills-soft reveal reveal-delay-2">
+						<h3 style="margin-bottom:26px;font-size:1.15rem;">Professional Skills</h3>
+						<div class="soft-skills-grid">
+							<div class="soft-skill-card">
+								<div class="ring-wrap">
+									<svg viewBox="0 0 84 84">
+										<circle class="ring-bg" cx="42" cy="42" r="36"></circle>
+										<circle class="ring-fill" data-percent="81" cx="42" cy="42" r="36"></circle>
+									</svg>
+									<div class="ring-num">81%</div>
 								</div>
-								<div class="candidatos">
-									<div class="parcial">
-										<div class="info">
-											<div class="nome">Power Automate (Microsoft Flows)</div>
-											<div class="percentagem-num">70%</div>
-										</div>
-										<div class="progressBar">
-											<div class="percentagem" style="width: 80%;"></div>
-										</div>
-									</div>
+								<div class="sk-label">Communication</div>
+							</div>
+							<div class="soft-skill-card">
+								<div class="ring-wrap">
+									<svg viewBox="0 0 84 84">
+										<circle class="ring-bg" cx="42" cy="42" r="36"></circle>
+										<circle class="ring-fill" data-percent="80" cx="42" cy="42" r="36"></circle>
+									</svg>
+									<div class="ring-num">80%</div>
 								</div>
-								<div class="candidatos">
-									<div class="parcial">
-										<div class="info">
-											<div class="nome">Power Virtual Agents (PVA)</div>
-											<div class="percentagem-num">65%</div>
-										</div>
-										<div class="progressBar">
-											<div class="percentagem" style="width: 65%;"></div>
-										</div>
-									</div>
+								<div class="sk-label">Team Work</div>
+							</div>
+							<div class="soft-skill-card">
+								<div class="ring-wrap">
+									<svg viewBox="0 0 84 84">
+										<circle class="ring-bg" cx="42" cy="42" r="36"></circle>
+										<circle class="ring-fill" data-percent="76" cx="42" cy="42" r="36"></circle>
+									</svg>
+									<div class="ring-num">76%</div>
 								</div>
-								<div class="candidatos">
-									<div class="parcial">
-										<div class="info">
-											<div class="nome">Custom Plugins Development</div>
-											<div class="percentagem-num">66%</div>
-										</div>
-										<div class="progressBar">
-											<div class="percentagem" style="width: 66%;"></div>
-										</div>
-									</div>
+								<div class="sk-label">Organizational Skills</div>
+							</div>
+							<div class="soft-skill-card">
+								<div class="ring-wrap">
+									<svg viewBox="0 0 84 84">
+										<circle class="ring-bg" cx="42" cy="42" r="36"></circle>
+										<circle class="ring-fill" data-percent="82" cx="42" cy="42" r="36"></circle>
+									</svg>
+									<div class="ring-num">82%</div>
 								</div>
-								<div class="candidatos">
-									<div class="parcial">
-										<div class="info">
-											<div class="nome">Dynamics CRM Customization</div>
-											<div class="percentagem-num">79%</div>
-										</div>
-										<div class="progressBar">
-											<div class="percentagem" style="width: 79%;"></div>
-										</div>
-									</div>
-								</div>
-								<!-- <div class="candidatos">
-									<div class="parcial">
-										<div class="info">
-											<div class="nome">AWS Lambda, DynamoDB, S3</div>
-											<div class="percentagem-num">55%</div>
-										</div>
-										<div class="progressBar">
-											<div class="percentagem" style="width: 55%;"></div>
-										</div>
-									</div>
-								</div> -->
-								<div class="candidatos">
-									<div class="parcial">
-										<div class="info">
-											<div class="nome">Rest APIs</div>
-											<div class="percentagem-num">69%</div>
-										</div>
-										<div class="progressBar">
-											<div class="percentagem" style="width: 69%;"></div>
-										</div>
-									</div>
-								</div>
+								<div class="sk-label">Multi-Tasking</div>
+							</div>
+						</div>
+
+						<h3 style="margin-bottom:18px;font-size:1.15rem;">Tools &amp; Technologies</h3>
+						<div class="tool-cloud">
+							<span class="tool-chip"><span class="dot2"></span>Dynamics 365</span>
+							<span class="tool-chip"><span class="dot2"></span>Power Apps</span>
+							<span class="tool-chip"><span class="dot2"></span>Power Automate</span>
+							<span class="tool-chip"><span class="dot2"></span>Power BI</span>
+							<span class="tool-chip"><span class="dot2"></span>Power Pages</span>
+							<span class="tool-chip"><span class="dot2"></span>JavaScript</span>
+							<span class="tool-chip"><span class="dot2"></span>C#</span>
+							<span class="tool-chip"><span class="dot2"></span>REST API</span>
+							<span class="tool-chip"><span class="dot2"></span>SSRS</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- ===================== EXPERIENCE ===================== -->
+		<section id="experience">
+			<div class="container">
+				<div class="section-head center reveal" style="margin-left:auto;margin-right:auto;">
+					<div class="section-tag" style="margin-left:auto;margin-right:auto;">Career Journey</div>
+					<h2>Work <span class="gradient-text">Experience</span></h2>
+					<p style="margin-left:auto;margin-right:auto;">Three years and counting of delivering Dynamics 365 CRM solutions across implementation partners and end clients.</p>
+				</div>
+
+				<div class="timeline">
+					<div class="timeline-item reveal">
+						<div class="timeline-dot">
+							<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+						</div>
+						<div class="timeline-card">
+							<span class="tc-period">September 2024 — Present</span>
+							<h3>Dynamics 365 CRM Technical Consultant</h3>
+							<span class="tc-company">at <a target="_blank" rel="noopener" href="https://applab.qa/">Applab Qatar</a></span>
+							<ul class="tc-list">
+								<li>Customizations (OOTB, JavaScript, C#)</li>
+								<li>Power Apps (Canvas, Model Driven, Portals)</li>
+								<li>Power Automate (Microsoft Flows)</li>
+								<li>Dynamics CRM Integration</li>
+								<li>SSRS Reports</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="timeline-item reveal reveal-delay-1">
+						<div class="timeline-dot">
+							<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+						</div>
+						<div class="timeline-card">
+							<span class="tc-period">November 2023 — September 2024</span>
+							<h3>Dynamics 365 CRM Technical Consultant</h3>
+							<span class="tc-company">at <a target="_blank" rel="noopener" href="https://www.systemsltd.com/">Systems Limited</a></span>
+							<ul class="tc-list">
+								<li>Customizations (OOTB, JavaScript, C#)</li>
+								<li>Power Apps (Canvas, Model Driven, Portals)</li>
+								<li>Power Automate (Microsoft Flows)</li>
+								<li>Dynamics CRM Integration</li>
+								<li>SSRS Reports</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="timeline-item reveal reveal-delay-2">
+						<div class="timeline-dot">
+							<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+						</div>
+						<div class="timeline-card">
+							<span class="tc-period">August 2021 — October 2023</span>
+							<h3>Dynamics 365 CRM Technical Consultant</h3>
+							<span class="tc-company">at <a target="_blank" rel="noopener" href="https://skysoftconnections.com">Skysoft Connections</a></span>
+							<ul class="tc-list">
+								<li>Customizations (OOTB, JavaScript, C#)</li>
+								<li>Power Apps (Canvas, Model Driven, Portals)</li>
+								<li>Power Automate (Microsoft Flows)</li>
+								<li>Power Virtual Agents (PVA)</li>
+								<li>Power BI</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- ===================== EDUCATION & CERTIFICATIONS ===================== -->
+		<section id="certifications">
+			<div class="container">
+				<div class="section-head reveal">
+					<div class="section-tag">Education &amp; Credentials</div>
+					<h2>Learning that backs the <span class="gradient-text">work</span></h2>
+					<p>A computer science foundation plus a stack of Microsoft Power Platform &amp; Dynamics 365 certifications.</p>
+				</div>
+
+				<div class="edu-cert-grid">
+					<div class="edu-card reveal">
+						<div class="edu-icon">
+							<svg viewBox="0 0 24 24" fill="none" stroke="#08080f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10L12 5 2 10l10 5 10-5z"></path><path d="M6 12v5c0 1.66 3 3 6 3s6-1.34 6-3v-5"></path></svg>
+						</div>
+						<h3>BS Computer Science</h3>
+						<span class="edu-year">2016 — 2020</span>
+						<p>
+							<a target="_blank" rel="noopener" href="http://www.gu.edu.pk/">Gomal University</a>, Dera Ismail Khan
+						</p>
+					</div>
+
+					<div class="cert-grid reveal reveal-delay-1">
+						<div class="cert-card">
+							<span class="cert-badge">
+								<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"></circle><path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12"></path></svg>
+							</span>
+							<div>
+								<h4>Power Platform Solution Architect (PL-600)</h4>
+								<span class="cert-date">July 2025</span><br />
+								<a class="cert-link" target="_blank" rel="noopener" href="https://learn.microsoft.com/api/credentials/share/en-us/UsmanKhan-5816/B50B9E3347499CE5?sharingId=BE1C855A284029D2">View credential</a>
+							</div>
+						</div>
+						<div class="cert-card">
+							<span class="cert-badge">
+								<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"></circle><path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12"></path></svg>
+							</span>
+							<div>
+								<h4>Dynamics 365 Sales Functional Consultant Associate (MB-210)</h4>
+								<span class="cert-date">June 2023</span><br />
+								<a class="cert-link" target="_blank" rel="noopener" href="https://www.credly.com/badges/d07b930f-f4d8-4423-832b-9a4460291c61/public_url">View credential</a>
+							</div>
+						</div>
+						<div class="cert-card">
+							<span class="cert-badge">
+								<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"></circle><path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12"></path></svg>
+							</span>
+							<div>
+								<h4>Power Platform Developer Associate (PL-400)</h4>
+								<span class="cert-date">September 2023</span><br />
+								<a class="cert-link" target="_blank" rel="noopener" href="https://learn.microsoft.com/api/credentials/share/en-us/MuhammadUsmanKhan-9327/D7F4FA5431D7A73A?sharingId=278B000AAE29EB58">View credential</a>
+							</div>
+						</div>
+						<div class="cert-card">
+							<span class="cert-badge">
+								<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"></circle><path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12"></path></svg>
+							</span>
+							<div>
+								<h4>Power Platform Functional Consultant Associate (PL-200)</h4>
+								<span class="cert-date">June 2022</span><br />
+								<a class="cert-link" target="_blank" rel="noopener" href="https://www.credly.com/badges/2795c989-2511-404d-8a5f-1304370619d0/public_url">View credential</a>
+							</div>
+						</div>
+						<div class="cert-card">
+							<span class="cert-badge">
+								<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"></circle><path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12"></path></svg>
+							</span>
+							<div>
+								<h4>Power Platform App Maker Associate (PL-100)</h4>
+								<span class="cert-date">August 2022</span><br />
+								<a class="cert-link" target="_blank" rel="noopener" href="https://www.credly.com/badges/2dc2e4dc-43d7-4081-a611-4224633922fc">View credential</a>
+							</div>
+						</div>
+						<div class="cert-card">
+							<span class="cert-badge">
+								<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"></circle><path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12"></path></svg>
+							</span>
+							<div>
+								<h4>Dynamics 365 CRM Fundamentals</h4>
+								<span class="cert-date">March 2022</span><br />
+								<a class="cert-link" target="_blank" rel="noopener" href="https://www.credly.com/badges/123640ff-7a6f-4c67-b42f-347f5479e266/public_url">View credential</a>
+							</div>
+						</div>
+						<div class="cert-card">
+							<span class="cert-badge">
+								<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"></circle><path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12"></path></svg>
+							</span>
+							<div>
+								<h4>Power Platform Fundamentals</h4>
+								<span class="cert-date">January 2022</span><br />
+								<a class="cert-link" target="_blank" rel="noopener" href="https://www.credly.com/badges/1f958eb7-8530-4018-95b4-d4047ac1047a/public_url">View credential</a>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-sm-12 col-md-6">
-					<div class="mh-professional-skills wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
-						<h3>Professional Skills</h3>
-						<ul class="mh-professional-progress">
-							<li>
-								<div class="mh-progress mh-progress-circle" data-progress="81"></div>
-								<div class="pr-skill-name">Communication</div>
-							</li>
-							<li>
-								<div class="mh-progress mh-progress-circle" data-progress="80"></div>
-								<div class="pr-skill-name">Team Work</div>
-							</li>
-							<li>
-								<div class="mh-progress mh-progress-circle" data-progress="76"></div>
-								<div class="pr-skill-name">Organizational Skills</div>
-							</li>
-							<li>
-								<div class="mh-progress mh-progress-circle" data-progress="82"></div>
-								<div class="pr-skill-name">Multi-Tasking</div>
-							</li>
+			</div>
+		</section>
+
+		<!-- ===================== HIRE ME / PRICING ===================== -->
+		<section id="hire">
+			<div class="container">
+				<div class="section-head center reveal" style="margin-left:auto;margin-right:auto;">
+					<div class="section-tag" style="margin-left:auto;margin-right:auto;">Let's Work Together</div>
+					<h2>Ways to <span class="gradient-text">hire me</span></h2>
+					<p style="margin-left:auto;margin-right:auto;">Whether it's a full-time role, a fixed-scope project or hourly consulting — I'm ready to help.</p>
+				</div>
+
+				<div class="pricing-grid">
+					<div class="price-card reveal">
+						<div class="price-icon">
+							<svg viewBox="0 0 24 24" fill="none" stroke="#08080f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+						</div>
+						<h4>Full-Time Work</h4>
+						<p class="price-desc">Join your team as a dedicated Dynamics 365 / Power Platform consultant.</p>
+						<span class="avail-badge"><span class="status-dot"></span>Available</span>
+						<ul class="price-list">
+							<li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>Plugins Development</li>
+							<li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>CRM Customization</li>
+							<li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>Integration</li>
 						</ul>
+						<a target="_blank" rel="noopener" href="https://www.fiverr.com/s/z6akNE" class="btn btn-primary">Hire Me</a>
+					</div>
+
+					<div class="price-card featured reveal reveal-delay-1">
+						<span class="featured-tag">Most Popular</span>
+						<div class="price-icon">
+							<svg viewBox="0 0 24 24" fill="none" stroke="#08080f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg>
+						</div>
+						<h4>Fixed Price Project</h4>
+						<p class="price-desc">A clearly scoped deliverable — from customization to a full integration.</p>
+						<span class="avail-badge"><span class="status-dot"></span>Available</span>
+						<ul class="price-list">
+							<li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>Plugins Development</li>
+							<li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>CRM Customization</li>
+							<li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>Integration</li>
+						</ul>
+						<a target="_blank" rel="noopener" href="https://www.fiverr.com/s/z6akNE" class="btn btn-primary">Hire Me</a>
+					</div>
+
+					<div class="price-card reveal reveal-delay-2">
+						<div class="price-icon">
+							<svg viewBox="0 0 24 24" fill="none" stroke="#08080f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+						</div>
+						<h4>Hourly Work</h4>
+						<p class="price-desc">Flexible, on-demand support billed by the hour for ongoing needs.</p>
+						<span class="avail-badge"><span class="status-dot"></span>Available</span>
+						<ul class="price-list">
+							<li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>Plugins Development</li>
+							<li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>CRM Customization</li>
+							<li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>Integration</li>
+						</ul>
+						<a target="_blank" rel="noopener" href="https://www.fiverr.com/s/z6akNE" class="btn btn-primary">Hire Me</a>
 					</div>
 				</div>
 			</div>
-		</div>
-	</section>
+		</section>
 
-	<!--
-        ===================
-           EXPERIENCES
-        ===================
-        -->
-	<section class="mh-experince" id="mh-experience">
-		<div class="bolor-overlay">
+		<!-- ===================== CONTACT ===================== -->
+		<section id="contact">
 			<div class="container">
-				<div class="row section-separator">
-					<div class="col-sm-12 col-md-6">
-						<div class="mh-education">
-							<h3 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
-								Education
-							</h3>
-							<div class="mh-education-deatils">
-								<!-- Education Institutes-->
-								<div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-									data-wow-delay="0.3s">
-									<h4>
-										BS Computer Science From
-										<a target="_blank" href="http://www.gu.edu.pk/">Gomal University Dera Ismail Khan</a>
-									</h4>
-									<div class="mh-eduyear">2016-2020</div>
-									<p>
-										Persuded my Bachelors in Computer Science from Gomal
-										University Dera Ismail khan
-									</p>
-								</div>
+				<div class="section-head center reveal" style="margin-left:auto;margin-right:auto;">
+					<div class="section-tag" style="margin-left:auto;margin-right:auto;">Get In Touch</div>
+					<h2>Let's build something <span class="gradient-text">great together</span></h2>
+					<p style="margin-left:auto;margin-right:auto;">Have a project in mind or just want to connect? Reach out through any of the channels below.</p>
+				</div>
 
-							</div>
+				<div class="contact-wrap">
+					<div class="contact-card reveal">
+						<div class="contact-icon">
+							<svg viewBox="0 0 24 24" fill="none" stroke="#08080f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 6-9 12-9 12S3 16 3 10a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
 						</div>
-						<br>
-						<!-- Certificates -->
-						<div class="mh-education">
-							<h3 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
-								Certificates
-							</h3>
-							<div class="mh-education-deatils">
-
-								<!-- Sales functional consultant-->
-								<div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-									 data-wow-delay="0.5s">
-									<h4>
-										Dynamics 365 Sales Functional Consultant Associate (MB-210) from
-										<a target="_blank"
-										   href="https://www.credly.com/badges/d07b930f-f4d8-4423-832b-9a4460291c61/public_url">Microsoft</a>
-									</h4>
-									<div class="mh-eduyear">June, 2023</div>
-
-								</div>
-
-								<!-- marketing functional consultant-->
-								<!-- <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-		data-wow-delay="0.5s">
-		<h4>
-			Dynamics 365 Marketing Functional Consultant Associate (MB-220) from
-			<a target="_blank"
-				href="https://www.credly.com/badges/1b6c8445-63c1-4b35-9c32-33d85e2c9c91/public_url">Microsoft</a>
-		</h4>
-		<div class="mh-eduyear">May, 2022</div>
-
-	</div> -->
-								<!-- marketing functional consultant-->
-								<!-- <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-		data-wow-delay="0.5s">
-		<h4>
-			Dynamics 365 Field Service Functional Consultant Associate (MB-240) from
-			<a target="_blank"
-				href="https://www.credly.com/badges/3856fa11-0950-4137-8507-01ad039fb6fe/public_url">Microsoft</a>
-		</h4>
-		<div class="mh-eduyear">February, 2023</div>
-
-	</div> -->
-								<!-- power platform solutions architect expert-->
-								<!-- <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-		data-wow-delay="0.5s">
-		<h4>
-			Power Platform Solution Architect Expert (PL-600) from
-			<a target="_blank"
-				href="https://www.credly.com/badges/78a8b26a-dd74-43ef-bd96-7ecd021739c3/public_url">Microsoft</a>
-		</h4>
-		<div class="mh-eduyear">July, 2022</div>
-
-	</div> -->
-								<!-- Power Automate RPA Developer Associate-->
-								<!-- <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-		data-wow-delay="0.5s">
-		<h4>
-			Power Automate RPA Developer Associate (PL-500) from
-			<a target="_blank"
-				href="https://www.credly.com/badges/279a44bb-0ad6-4f81-ba51-2e2362141e4e/public_url">Microsoft</a>
-		</h4>
-		<div class="mh-eduyear">February, 2023</div>
-
-	</div> -->
-								<!-- power platform developer associate-->
-								<!-- <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-		data-wow-delay="0.5s">
-		<h4>
-			Power Platform Developer Associate (PL-400) from
-			<a target="_blank"
-				href="https://www.credly.com/badges/eb6cacc7-6c3c-4b9c-b405-b4c8c005f5c2/public_url">Microsoft</a>
-		</h4>
-		<div class="mh-eduyear">June, 2022</div>
-
-	</div> -->
-                 	<div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-									 data-wow-delay="0.5s">
-									<h4>
-										Power Platform Solution Architect (PL-600) from
-										<a target="_blank"
-										   href="https://learn.microsoft.com/api/credentials/share/en-us/UsmanKhan-5816/B50B9E3347499CE5?sharingId=BE1C855A284029D2">Microsoft</a>
-									</h4>
-									<div class="mh-eduyear">July, 2025</div>
-
-								</div>
-
-								<div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-									 data-wow-delay="0.5s">
-									<h4>
-										Power Platform Developer Associate (PL-400) from
-										<a target="_blank"
-										   href="https://learn.microsoft.com/api/credentials/share/en-us/MuhammadUsmanKhan-9327/D7F4FA5431D7A73A?sharingId=278B000AAE29EB58">Microsoft</a>
-									</h4>
-									<div class="mh-eduyear">September, 2023</div>
-
-								</div>
-
-								<div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-									 data-wow-delay="0.5s">
-									<h4>
-										Power Platform Functional Consultant Associate (PL-200) from
-										<a target="_blank"
-										   href="https://www.credly.com/badges/2795c989-2511-404d-8a5f-1304370619d0/public_url">Microsoft</a>
-									</h4>
-									<div class="mh-eduyear">June, 2022</div>
-
-								</div>
-
-								<!-- power platform functional consultant associate-->
-								<div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-									 data-wow-delay="0.5s">
-									<h4>
-										Power Platform App Maker Associate (PL-100) from
-										<a target="_blank"
-										   href="https://www.credly.com/badges/2dc2e4dc-43d7-4081-a611-4224633922fc">Microsoft</a>
-									</h4>
-									<div class="mh-eduyear">August, 2022</div>
-								</div>
-								<!-- Dynamics 365 (CRM) Fundamentals -->
-								<div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-									 data-wow-delay="0.5s">
-									<h4>
-										Dynamics 365 CRM Fundamental
-										<a target="_blank"
-										   href="https://www.credly.com/badges/123640ff-7a6f-4c67-b42f-347f5479e266/public_url">Microsoft</a>
-									</h4>
-									<div class="mh-eduyear">March, 2022</div>
-								</div>
-
-								<!-- Power Platform Fundamental -->
-								<div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-									 data-wow-delay="0.5s">
-									<h4>
-										Power Platform Fundamental
-										<a target="_blank"
-										   href="https://www.credly.com/badges/1f958eb7-8530-4018-95b4-d4047ac1047a/public_url">Microsoft</a>
-									</h4>
-									<div class="mh-eduyear">January, 2022</div>
-								</div>
-
-								<!-- Education Institutes-->
-								<!-- <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-		data-wow-delay="0.5s">
-		<h4>
-			WordPress & SEO from
-			<a target="_blank" href="https://www.digiskills.pk">Digiskills.pk</a>
-		</h4>
-		<div class="mh-eduyear">2018</div>
-		<p>
-			Digiskills.pk is an online LMS (learning management
-			system), in affiliation with the government of Pakistan to
-			provide online learning at ease.
-		</p>
-	</div> -->
-								<!-- Education Institutes-->
-								<!-- <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-		data-wow-delay="0.6s">
-		<h4>
-			Essentials of Cyber Security & Network Penetration Testing
-			From<a target="_blank" href="https://www.kpitb.gov.pk/projects/kp-cerc">Khyber
-				Pakhtunkhwa Cyber Emergency & Response Center</a>
-		</h4>
-		<div class="mh-eduyear">2019</div>
-		<p></p>
-	</div> -->
-								<!-- Education Institutes-->
-								<!-- <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-		data-wow-delay="0.6s">
-		<h4>
-			Graphics Design & Marketing From<a
-				href="https://www.digiskills.pk">Digiskills.pk</a>
-		</h4>
-		<div class="mh-eduyear">2019</div>
-	</div> -->
-
-							</div>
-						</div>
-
-						<!-- Conferences & Summits Attended -->
-						<!-- <br>
-						<div class="mh-education">
-							<h3 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
-								Conferences & Summits
-							</h3>
-							<div class="mh-education-deatils">
-								 Youth CoLab 
-								<div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-									data-wow-delay="0.3s">
-									<h4>
-										YouthCoLab:
-										<a target="_blank" href="https://www.youthcolab.org/2021-summit">Virtual Summit
-											2021</a>
-									</h4>
-									<div class="mh-eduyear">June 2021</div>
-									<p>
-										I got inspired and connected with young leaders, innovators and entrepreneurs
-										from across #AsiaPacific
-										<br>
-										<br>
-										Organized by @UNDP & @Citi Foundation
-									</p>
-								</div>
-							
-								<div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-									data-wow-delay="0.3s">
-									<h4>
-										Youth Summit 2021:
-										<a target="_blank"
-											href="https://www.worldbank.org/en/events/2021/01/28/world-bank-youth-summit-2021-resilient-recovery-for-people-and-planet">World
-											Bank : Resilence for People and Planet</a>
-									</h4>
-									<div class="mh-eduyear">June 2021</div>
-									<p>
-									</p>
-								</div>
-							</div>
-						</div> -->
+						<h4>Address</h4>
+						<p>Doha, Qatar</p>
 					</div>
-
-
-
-					<div class="col-sm-12 col-md-6">
-						<div class="mh-work">
-							<h3>Work Experience</h3>
-							<div class="mh-experience-deatils">
-								<!-- Education Institutes-->
-								<!-- <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-		data-wow-delay="0.4s">
-		<h4>
-			Dynamics CRM Developer at <a target="_blank" href="https://applab.qa">Applab
-				Qatar</a>
-		</h4>
-		<div class="mh-eduyear">June 2023 - Present </div>
-		<span>Responsibility :</span>
-		<ul class="work-responsibility">
-			<li><i class="fa fa-circle"></i>Customizations (OOB(out-of-the-box),
-				Javascript, c#)</li>
-			<li><i class="fa fa-circle"></i>Power Pages</li>
-			<li><i class="fa fa-circle"></i>Power Automate (Microsoft Flows)</li>
-
-		</ul>
-	</div> -->
-								<!-- Education Institutes-->
-								<div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-									 data-wow-delay="0.4s">
-									<h4>
-										Dynamics 365 CRM Technical Consultant at <a target="_blank"
-																	  href="https://skysoftconnections.com">Skysoft Connections</a>
-									</h4>
-									<div class="mh-eduyear">August 2021 - october 2023 </div>
-									<span>Responsibility :</span>
-									<ul class="work-responsibility">
-										<li>
-											<i class="fa fa-circle"></i>Customizations (ootb(out-of-the-box),
-											Javascript, c#)
-										</li>
-										<li><i class="fa fa-circle"></i>Power Apps (Canvas, Model Driven, Portals)</li>
-										<li><i class="fa fa-circle"></i>Power Automate (Microsoft Flows)</li>
-										<li><i class="fa fa-circle"></i>Power Virtual Agents (PVA)</li>
-										<li><i class="fa fa-circle"></i>Power Bi</li>
-
-									</ul>
-								</div>
-								<div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-									 data-wow-delay="0.4s">
-									<h4>
-										Dynamics 365 CRM Technical Consultant at <a target="_blank" href="https://www.systemsltd.com/">Systems Limited</a>
-									</h4>
-									<div class="mh-eduyear">November 2023 - September 2024 </div>
-									<span>Responsibility :</span>
-									<ul class="work-responsibility">
-										<li>
-											<i class="fa fa-circle"></i>Customizations (ootb(out-of-the-box),
-											Javascript, c#)
-										</li>
-										<li><i class="fa fa-circle"></i>Power Apps (Canvas, Model Driven, Portals)</li>
-										<li><i class="fa fa-circle"></i>Power Automate (Microsoft Flows)</li>
-										<li><i class="fa fa-circle"></i>Dynamics CRM Integration</li>
-										<li><i class="fa fa-circle"></i>SSRS Reports</li>
-
-									</ul>
-								</div>
-                                <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-                                data-wow-delay="0.4s">
-                               <h4>
-                                   Dynamics 365 CRM Technical Consultant at <a target="_blank" href="https://applab.qa/">Applab Qatar</a>
-                               </h4>
-                               <div class="mh-eduyear">September 2024 - Present </div>
-                               <span>Responsibility :</span>
-                               <ul class="work-responsibility">
-                                   <li>
-                                       <i class="fa fa-circle"></i>Customizations (ootb(out-of-the-box),
-                                       Javascript, c#)
-                                   </li>
-                                   <li><i class="fa fa-circle"></i>Power Apps (Canvas, Model Driven, Portals)</li>
-                                   <li><i class="fa fa-circle"></i>Power Automate (Microsoft Flows)</li>
-                                   <li><i class="fa fa-circle"></i>Dynamics CRM Integration</li>
-                                   <li><i class="fa fa-circle"></i>SSRS Reports</li>
-
-                               </ul>
-                                </div>
-							</div>
+					<div class="contact-card reveal reveal-delay-1">
+						<div class="contact-icon">
+							<svg viewBox="0 0 24 24" fill="none" stroke="#08080f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 6 12 13 2 6"></polyline><rect x="2" y="4" width="20" height="16" rx="2"></rect></svg>
 						</div>
-						<br />
-						<!-- <div class="mh-work">
-							<h3>Volunteer Experience</h3>
-							<div class="mh-experience-deatils">
-
-								 Volunteer Experience-->
-								<!-- <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-									data-wow-delay="0.7s">
-									<h4>
-										Graphic Designer for <a target="_blank" href="https://unfccc.int/">United Nation
-											Climate Change (UNFCC)</a>
-									</h4>
-									<div class="mh-eduyear">Oct 2020 - Dec 2020</div>
-
-								</div> -->
-								<!-- Volunteer Experience-->
-								<!-- <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-									data-wow-delay="0.6s">
-									<h4>
-										Booklets Design for
-										<a target="_blank" href="https://www.unv.org">United Nation Volunteers (UNV)</a>
-									</h4>
-									<div class="mh-eduyear">Nov 2019 - Dec 2019</div>
-									<span>Responsibility :</span>
-									<ul class="work-responsibility">
-										<li>
-											<i class="fa fa-circle"></i>finalization of design
-										</li>
-									</ul>
-								</div> -->
-								<!-- Volunteer Experience-->
-								<!-- <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-									data-wow-delay="0.7s">
-									<h4>
-										UNIT Tester for <a target="_blank" href="#">Youngsters Organization</a>
-									</h4>
-									<div class="mh-eduyear">Oct 2019</div>
-									<span>Responsibility :</span>
-									<ul class="work-responsibility">
-										<li>
-											<i class="fa fa-circle"></i>Unit Testing of a web
-											application
-										</li>
-									</ul>
-								</div> -->
-								<!-- Volunteer Experience-->
-								<!-- <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
-									data-wow-delay="0.7s">
-									<h4>
-										Infographics Design for
-										<a target="_blank" href="https://egypt.iom.int/"> IOM Egypt</a>
-									</h4>
-									<div class="mh-eduyear">Oct 2019 - Nov 2019</div>
-								</div> 
-							</div>
-						</div> -->
+						<h4>Email</h4>
+						<a href="mailto:muhammadusmankhan26@outlook.com">muhammadusmankhan26@outlook.com</a>
 					</div>
+					<div class="contact-card reveal reveal-delay-2">
+						<div class="contact-icon">
+							<svg viewBox="0 0 24 24" fill="none" stroke="#08080f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.68 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.32 1.85.55 2.81.68A2 2 0 0 1 22 16.92z"></path></svg>
+						</div>
+						<h4>Phone</h4>
+						<a href="callto:+97431301041">(+974) 31301041</a>
+					</div>
+				</div>
+
+				<div class="cta-banner reveal">
+					<h2>Ready to modernize your Dynamics 365 environment?</h2>
+					<p>Let's talk about your CRM, automation or integration needs — I usually reply within a day.</p>
+					<a href="mailto:muhammadusmankhan26@outlook.com" class="btn btn-primary">
+						Say Hello
+						<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+					</a>
 				</div>
 			</div>
-		</div>
-	</section>
+		</section>
+	</main>
 
-
-
-	<!--
-        ===================
-           PRICING
-        ===================
-        -->
-	<section class="mh-pricing" id="mh-pricing">
-		<div class="">
-			<div class="container">
-				<div class="row section-separator">
-					<div class="col-sm-12 section-title" data-wow-duration="0.8s" data-wow-delay="0.2s">
-						<h3>Hire Me</h3>
-					</div>
-					<div class="col-sm-12 col-md-4">
-						<div class="mh-pricing dark-bg shadow-2 wow fadeInUp" data-wow-duration="0.8s"
-							data-wow-delay="0.3s">
-							<i class="fa fa-calendar"></i>
-							<h4>Full-time work</h4>
-							<p>I am available for full time</p>
-							<h5>Available</h5>
-							<ul>
-								<li>Plugins Development</li>
-								<li>CRM Customization</li>
-								<li>Integration</li>
-								<!-- <li>Amazon Web Services</li> -->
-							</ul>
-							<a target="_blank" href="https://www.fiverr.com/s/z6akNE" class="btn btn-fill">Hire
-								Me</a>
-						</div>
-					</div>
-					<div class="col-sm-12 col-md-4">
-						<div class="mh-pricing dark-bg shadow-2 wow fadeInUp" data-wow-duration="0.8s"
-							data-wow-delay="0.5s">
-							<i class="fa fa-file"></i>
-							<h4>Fixed Price Project</h4>
-							<p>I am available for fixed roles</p>
-							<h5>Available</h5>
-							<ul>
-								<li>Plugins Development</li>
-								<li>CRM Customization</li>
-								<li>Integration</li>
-								<!-- <li>Amazon Web Services</li> -->
-							</ul>
-							<!-- #mh-contact -->
-							<a target="_blank" href="https://www.fiverr.com/s/z6akNE" class="btn btn-fill">Hire
-								Me</a>
-						</div>
-					</div>
-					<div class="col-sm-12 col-md-4">
-						<div class="mh-pricing dark-bg shadow-2 wow fadeInUp" data-wow-duration="0.8s"
-							data-wow-delay="0.7s">
-							<i class="fa fa-hourglass"></i>
-							<h4>Hourley work</h4>
-							<p>I am available for Hourley projets</p>
-							<h5>Available</h5>
-							<ul>
-								<li>Plugins Development</li>
-								<li>CRM Customization</li>
-								<li>Integration</li>
-								<!-- <li>Amazon Web Services</li> -->
-							</ul>
-							<a target="_blank" href="https://www.fiverr.com/s/z6akNE" class="btn btn-fill">Hire
-								Me</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!--
-        ===================
-           BLOG
-        ===================
-        -->
-
-	<!--
-        ===================
-           TESTIMONIALS
-        ===================
-        -->
-
-	<!-- 
-			
-			<section class="mh-testimonial" id="mh-testimonial">
-				<div class="home-v-img">
-					<div class="container">
-						<div class="row section-separator">
-							<div
-								class="col-sm-12 section-title wow fadeInUp"
-								data-wow-duration="0.8s"
-								data-wow-delay="0.2s"
-							>
-								<h3>Supervisor Reviews</h3>
-							</div>
-							<div
-								class="col-sm-12 wow fadeInUp"
-								id="mh-client-review"
-								data-wow-duration="0.8s"
-								data-wow-delay="0.3s"
-							>
-
-								Please comment me out below:
-								<div class="each-client-item" style= "display: none">
-									<div class="mh-client-item dark-bg black-shadow-1">
-										<img src="assets/images/anwar.png" alt="" class="img-fluid" />
-										<p>
-											Hello, I’m Muhammad Usman Khan, Microsoft Dynamics 365 Developer, based in
-									Islamabad, Pakistan. I have rich experience in Dynamics 365 customization &
-									writing plugins, flows and automate the work process using power automate.
-										</p>
-									</div>
-								</div>
-								Please comment me out above.
-
-									<div class="each-client-item">
-									<div class="mh-client-item dark-bg black-shadow-1">
-										<img src="assets/images/anwar1.png" alt="" class="img-fluid" />
-										<p>
-											Working with Anwarul was a very positive experience. He not
-											only delivers high-quality professional work, but his soft
-											skills make him the best
-										</p>
-										<h4>Cristina Birsan</h4>
-										<span>Project Manager, UNV</span>
-									</div>
-								</div>
-								<div class="each-client-item">
-									<div class="mh-client-item dark-bg black-shadow-1">
-										<img src="assets/images/c-5.png" alt="" class="img-fluid" />
-										<p>
-											Anwar proved himself to be a dependable employee and a hard worker with solid problem solving and technical skills. 
-										</p>
-										<h4>Mr. Yaqub Ahmad</h4>
-										<span>CEO Skysoft Connections</span>
-									</div>
-								</div>
-	
-								<div class="each-client-item">
-									<div class="mh-client-item dark-bg black-shadow-1">
-										<img src="assets/images/c-6.png" alt="" class="img-fluid" />
-										<p>
-											During his working period with us, we found him to be a dedicated, hardworking, and intelligent employee. He also is very easy to get along with. 
-										</p>
-										<h4>Mr. Hoa Mai</h4>
-										<span>CTO NextBest Shop</span>
-									</div>
-								</div>
-	
-								<div class="each-client-item">
-									<div class="mh-client-item dark-bg black-shadow-1">
-										<img src="assets/images/c-2.png" alt="" class="img-fluid" />
-										<p>
-											I am sure that a degree in higher education would be enable
-											him to persue his professional goals/career development
-										</p>
-										<h4>Dr. Muzammil Khan</h4>
-										<span>Assistant Professor, Uni of Swat</span>
-									</div>
-								</div>
-	
-								<div class="each-client-item">
-									<div class="mh-client-item dark-bg black-shadow-1">
-										<img src="assets/images/c-3.png" alt="" class="img-fluid" />
-										<p>
-											Mr. Haq's work and collaboration were outstanding. He
-											provided a very good quality derivable and was very
-											responsive throughout the collaboration
-										</p>
-										<h4>Medina Alba</h4>
-										<span>IOM Egypt</span>
-									</div>
-								</div>
-								<div class="each-client-item">
-									<div class="mh-client-item dark-bg black-shadow-1">
-										<img src="assets/images/c-4.png" alt="" class="img-fluid" />
-										<p>
-											He has both the aptitude and devotion for quality research
-											work and is well suited for persue his career in the
-											industry. I wish him all the best for the future
-										</p>
-										<h4>Muhammad Ismail</h4>
-										<span>Lecturer, UOSwat</span>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-		-->
-
-	<!--
-        ===================
-           FOOTER 1
-        ===================
-        -->
-	<footer class="mh-footer" id="mh-contact">
-		<div class="map-image image-bg">
-			<div class="container">
-				<div class="row section-separator">
-					<div class="col-sm-12 section-title wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
-						<h3>Contact Me</h3>
-					</div>
-					<div class="col-sm-12 mh-footer-address">
-						<div class="row">
-							<div class="col-sm-12 col-md-4">
-								<div class="mh-address-footer-item dark-bg shadow-1 wow fadeInUp"
-									data-wow-duration="0.8s" data-wow-delay="0.3s">
-									<div class="each-icon">
-										<i class="fa fa-location-arrow"></i>
-									</div>
-									<div class="each-info">
-										<h4>Address</h4>
-										<address>
-											Doha, Qatar
-										</address>
-										<br />
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-12 col-md-4">
-								<div class="mh-address-footer-item dark-bg shadow-1 wow fadeInUp"
-									data-wow-duration="0.8s" data-wow-delay="0.5s">
-									<div class="each-icon">
-										<i class="fa fa-envelope-o"></i>
-									</div>
-									<div class="each-info">
-										<h4>Email</h4>
-										<a href="mailto:muhammadusmankhan26@outlook.com">muhammadusmankhan26@outlook.com</a><br />
-										<br />
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-12 col-md-4">
-								<div class="mh-address-footer-item dark-bg shadow-1 wow fadeInUp"
-									data-wow-duration="0.8s" data-wow-delay="0.7s">
-									<div class="each-icon">
-										<i class="fa fa-phone"></i>
-									</div>
-									<div class="each-info">
-										<h4>Phone</h4>
-										<a href="callto:+974 31301041">(+974) 31301041</a><br />
-										<br />
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- <div
-							class="col-sm-12 col-md-6 wow fadeInUp"
-							data-wow-duration="0.8s"
-							data-wow-delay="0.3s"
-						>
-							<form
-								id="contactForm"
-								class="single-form quate-form wow fadeInUp"
-								data-toggle="validator"
-							>
-								<div id="msgSubmit" class="h3 text-center hidden"></div>
-								<div class="row">
-									<div class="col-md-6 col-sm-12">
-										<input
-											name="name"
-											class="contact-name form-control"
-											id="name"
-											type="text"
-											placeholder="First Name"
-											required
-										/>
-									</div>
-									<div class="col-md-6 col-sm-12">
-										<input
-											name="name"
-											class="contact-email form-control"
-											id="L_name"
-											type="text"
-											placeholder="Last Name"
-											required
-										/>
-									</div>
-									<div class="col-sm-12">
-										<input
-											name="name"
-											class="contact-subject form-control"
-											id="email"
-											type="email"
-											placeholder="Your Email"
-											required
-										/>
-									</div>
-									<div class="col-sm-12">
-										<textarea
-											class="contact-message"
-											id="message"
-											rows="6"
-											placeholder="Your Message"
-											required
-										></textarea>
-									</div>
-									 Subject Button -->
-					<!-- <div class="btn-form col-sm-12">
-										<button
-											type="submit"
-											class="btn btn-fill btn-block"
-											id="form-submit"
-										>
-											Send Message
-										</button>
-									</div>
-								</div>
-							</form>
-						</div> -->
-					<!-- <div
-							class="col-sm-12 col-md-6 wow fadeInUp"
-							data-wow-duration="0.8s"
-							data-wow-delay="0.5s"
-						>
-							<div class="mh-map">
-								<div id="mh-map" class="shadow-1"></div>
-							</div>
-						</div> -->
-					<div class="col-sm-12 mh-copyright wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
-						<div class="row">
-							<div class="col-sm-6">
-								<div class="text-left text-xs-center">
-									<p>
-										<a href="#">Copyright © 2024 Usman. All rights reserved.</a>
-									</p>
-									<!-- This site is owned and operated by Anwarul Haq. -->
-								</div>
-							</div>
-							<div class="col-sm-6">
-								<ul class="social-icon">
-									<li>
-										<a target="_blank" href="https://www.instagram.com/1iusmankhan/"><i
-												class="fa fa-instagram"></i></a>
-									</li>
-									<li>
-										<a target="_blank" href="https://www.linkedin.com/in/muhammad-usman-khan-386121210/"><i
-												class="fa fa-linkedin"></i></a>
-									</li>
-									<li>
-										<a target="_blank" href="https://github.com/MuhamadUsmankhan"><i
-												class="fa fa-github"></i></a>
-									</li>
-									<li>
-										<a target="_blank" href="https://www.fiverr.com/s/z6akNE"><i
-												class="fa fa-fonticons"></i></a>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
+	<!-- ===================== FOOTER ===================== -->
+	<footer class="site-footer">
+		<div class="container footer-inner">
+			<p>&copy; <span id="footerYear">2026</span> Muhammad Usman Khan. All rights reserved.</p>
+			<div class="hero-social">
+				<a class="icon-btn" target="_blank" rel="noopener" href="https://www.linkedin.com/in/muhammad-usman-khan586/" aria-label="LinkedIn">
+					<svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.45-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+				</a>
+				<a class="icon-btn" target="_blank" rel="noopener" href="https://github.com/MuhamadUsmankhan" aria-label="GitHub">
+					<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2.1c-3.3.7-4-1.6-4-1.6-.5-1.4-1.3-1.8-1.3-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.4 11.4 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .5z"/></svg>
+				</a>
+				<a class="icon-btn" target="_blank" rel="noopener" href="https://www.instagram.com/1iusmankhan" aria-label="Instagram">
+					<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+				</a>
+				<a class="icon-btn" target="_blank" rel="noopener" href="https://www.fiverr.com/s/z6akNE" aria-label="Fiverr">
+					<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3 5.5L21 9l-4.5 4 1 6.5-5.5-3-5.5 3 1-6.5L3 9l6-1.5z"></path></svg>
+				</a>
 			</div>
 		</div>
 	</footer>
 
-	<!--
-    ==============
-    * JS Files *
-    ==============
-    -->
+	<button class="back-to-top" id="backToTop" aria-label="Back to top">
+		<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+	</button>
 
-	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-
-	<!-- jQuery -->
-	<script src="assets/plugins/js/jquery.min.js"></script>
-	<!-- popper -->
-	<script src="assets/plugins/js/popper.min.js"></script>
-	<!-- bootstrap -->
-	<script src="assets/plugins/js/bootstrap.min.js"></script>
-	<!-- owl carousel -->
-	<script src="assets/plugins/js/owl.carousel.js"></script>
-	<!-- validator -->
-	<script src="assets/plugins/js/validator.min.js"></script>
-	<!-- wow -->
-	<script src="assets/plugins/js/wow.min.js"></script>
-	<!-- mixin js-->
-	<script src="assets/plugins/js/jquery.mixitup.min.js"></script>
-	<!-- circle progress-->
-	<script src="assets/plugins/js/circle-progress.js"></script>
-	<!-- jquery nav -->
-	<script src="assets/plugins/js/jquery.nav.js"></script>
-	<!-- Fancybox js-->
-	<script src="assets/plugins/js/jquery.fancybox.min.js"></script>
-	<!-- isotope js-->
-	<script src="assets/plugins/js/isotope.pkgd.js"></script>
-	<script src="assets/plugins/js/packery-mode.pkgd.js"></script>
-	<!-- Map api -->
-	<!-- <script src="http://maps.googleapis.com/maps/api/js?v=3.exp&amp;key=AIzaSyCRP2E3BhaVKYs7BvNytBNumU0MBmjhhxc"></script> -->
-	<!-- Custom Scripts-->
-	<script src="assets/js/map-init.js"></script>
-	<script src="assets/js/custom-scripts.js"></script>
+	<script src="assets/js/main.js"></script>
 </body>
 
 </html>
