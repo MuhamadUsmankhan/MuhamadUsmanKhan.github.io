@@ -675,19 +675,31 @@ section { position: relative; padding: 130px 0; }
 }
 .soft-skill-card .sk-label { font-size: 0.85rem; color: var(--text-muted); font-weight: 700; }
 
-.tool-cloud { display: flex; flex-wrap: wrap; gap: 10px; }
-.tool-chip {
-  display: flex; align-items: center; gap: 8px;
-  padding: 9px 15px;
-  border-radius: 999px;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  font-size: 0.83rem;
-  font-weight: 700;
-  transition: transform 0.25s ease, border-color 0.25s ease;
+.tool-grid { display: flex; flex-wrap: wrap; gap: 16px 12px; }
+.tool-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+  width: 64px;
 }
-.tool-chip:hover { transform: translateY(-3px); border-color: var(--accent); }
-.tool-chip .dot2 { width: 7px; height: 7px; border-radius: 50%; background: var(--gradient-2); }
+.tool-badge {
+  width: 38px; height: 38px;
+  border-radius: 11px;
+  display: flex; align-items: center; justify-content: center;
+  box-shadow: var(--shadow-1);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.tool-badge svg { width: 19px; height: 19px; }
+.tool-badge .tool-text { font-size: 0.72rem; font-weight: 800; font-family: 'Poppins', sans-serif; }
+.tool-item:hover .tool-badge { transform: translateY(-4px) scale(1.06); box-shadow: 0 12px 22px rgba(124, 92, 255, 0.28); }
+.tool-label {
+  font-size: 0.66rem;
+  font-weight: 700;
+  color: var(--text-faint);
+  text-align: center;
+  line-height: 1.25;
+}
 
 /* =========================================================
    EXPERIENCE TIMELINE
@@ -888,17 +900,19 @@ section { position: relative; padding: 130px 0; }
 .contact-card a:hover { color: var(--primary); }
 
 .cta-banner {
-  background: var(--gradient-1);
+  background-image: linear-gradient(rgba(8, 8, 15, 0.62), rgba(8, 8, 15, 0.62)), var(--gradient-1);
+  border: 1px solid var(--border);
   border-radius: var(--radius-lg);
   padding: 56px 40px;
   text-align: center;
-  color: #08080f;
+  color: #f3f3f8;
   position: relative;
   overflow: hidden;
 }
-.cta-banner h2 { font-size: clamp(1.6rem, 3.4vw, 2.3rem); margin-bottom: 14px; }
-.cta-banner p { color: rgba(8, 8, 15, 0.75); max-width: 520px; margin: 0 auto 28px; font-weight: 600; }
-.cta-banner .btn-primary { background: #08080f; color: #fff; box-shadow: 0 14px 30px rgba(0, 0, 0, 0.25); }
+[data-theme="light"] .cta-banner { background-image: linear-gradient(rgba(8, 8, 15, 0.42), rgba(8, 8, 15, 0.42)), var(--gradient-1); }
+.cta-banner h2 { font-size: clamp(1.6rem, 3.4vw, 2.3rem); margin-bottom: 14px; color: #fff; }
+.cta-banner p { color: rgba(243, 243, 248, 0.82); max-width: 520px; margin: 0 auto 28px; font-weight: 600; }
+.cta-banner .btn-primary { background: #fff; color: #08080f; box-shadow: 0 14px 30px rgba(0, 0, 0, 0.35); }
 .cta-banner .btn-primary:hover { transform: translateY(-3px); }
 
 footer.site-footer { padding: 50px 0 30px; border-top: 1px solid var(--border); margin-top: 70px; }
